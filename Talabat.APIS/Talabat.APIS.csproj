@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Talabat.services\Talabat.services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\products\CheesyVegetableLasagna.png" />
+    <None Include="wwwroot\images\products\ChickenMarsala.png" />
+    <None Include="wwwroot\images\products\ChickenTeriyakiNoodles.png" />
+    <None Include="wwwroot\images\products\ChickenTikkaMasala.jpg" />
+    <None Include="wwwroot\images\products\Congee.png" />
+    <None Include="wwwroot\images\products\CreamyGochujangTortellini.png" />
+    <None Include="wwwroot\images\products\CrispyVegetablePakoras.png" />
+    <None Include="wwwroot\images\products\HaluskiNoodles.png" />
+    <None Include="wwwroot\images\products\HeartyVegetableLasagna.png" />
+    <None Include="wwwroot\images\products\ItalianChickenMarinade.png" />
+    <None Include="wwwroot\images\products\ItalianWeddingSoup.png" />
+    <None Include="wwwroot\images\products\Kulfi.png" />
+    <None Include="wwwroot\images\products\PastaSalad.png" />
+    <None Include="wwwroot\images\products\PepperPasta.png" />
+    <None Include="wwwroot\images\products\ShrimpEggFooYoung.png" />
+    <None Include="wwwroot\images\products\TandooriChicken.png" />
+    <None Include="wwwroot\images\products\VegetarianKorma.png" />
+    <None Include="wwwroot\images\products\VegetarianRefriedBeans.png" />
+  </ItemGroup>
+
+</Project>
