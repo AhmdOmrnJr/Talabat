@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using Talabat.APIS.Extensions;
@@ -17,6 +16,7 @@ namespace Talabat.APIS
             // Add services to the container.
 
             builder.Services.AddControllers();
+
             builder.Services.AddDbContext<StoreDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
